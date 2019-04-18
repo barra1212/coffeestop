@@ -19,6 +19,7 @@ from users import urls as urls_users
 from django.conf.urls.static import static
 
 urlpatterns = [
+    # url(r'^$', index, name='index'),
     url(r'^admin/', admin.site.urls),
     url(r'^users/', include(urls_users)),
 ]
