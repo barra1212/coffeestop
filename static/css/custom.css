@@ -1,14 +1,48 @@
-body {
-    background-color: #aeaeae;
-}
+/*body {*/
+/*    background-color: #FFFFFF;*/
+/*}*/
 
 #coffeenav {
-    background: url("/static/media/header-img.png") 50% 0 no-repeat;
-    color: white;
+    background: url("/static/media/header-img.jpg") 50% 0 no-repeat;
     min-height: 500px;
     padding: 0;   
 }
 
 .bg-primary {
     background-color: rgba(0, 80, 117, 0.9) !important;
+}
+
+.white-opaque {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 50px auto;
+}
+
+.page-footer {
+    background-color: #003455;
+    color: #FFFFFF;
+}
+
+.alert,.alert-success {
+    background-color: rgba(0, 136, 199, 0.9);
+    border-radius: 0px;
+}
+
+
+/* CUSTOM STYLING FOR HEADINGS */
+.home-heading {
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow:1px 1px 10px #000000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    color: #005075;
+}
+
+h4 {
+    color: #0088c7;
 }

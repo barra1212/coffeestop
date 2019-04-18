@@ -1,5 +1,18 @@
-{% extends base.html %}
+{% extends 'base.html' %}
 
 {% block content %}
+
+<div class="col-md-6">
+    <h1 class="home-heading">Fancy a Coffee Stop?</h1>
+</div>
+
+<h2>A list of Coffee Stop locations for athletes on the go!</h2>
+
+<a href="{% url 'register' %}">
+<h4>You can add your favourite Coffee Stop<br/>by signing up and buying us a coffee!</h4>
+</a>
+
+<p class="text-center">All donations are put towards the upkeep of this App (or coffee).<br/>
+Your details are safe with us, we’ll never share them.</p>
 
 {% endblock %}

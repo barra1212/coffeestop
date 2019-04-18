@@ -43,8 +43,6 @@
             </div>
         </nav>
 
-    </div>
-
     {% if messages %}
     <div class="alert alert-success">
         <div class="messages">
@@ -59,13 +57,23 @@
         <!--            <button type="submit">Search</button>-->
         <!--        </form>-->
         <!--    </div>-->
-        {% block content %} {% endblock %}
     </div>
-    <footer>
-        <!--<div class="container">-->
-        <!--    <p>Made by Code Institute bootcampers</p>-->
-        <!--</div>-->
+
+
+    {% block content %}
+    {% endblock %}
+
+
+    <!-- Footer -->
+    <footer class="page-footer fixed-bottom">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Barry Cunningham</div>
+        <!-- Copyright -->
     </footer>
+    <!-- Footer -->
+
+</div>
+
 </body>
 
 </html>
